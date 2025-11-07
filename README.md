@@ -1,77 +1,73 @@
 # 🤖 Machine Learning Practice (Colab)
 
-This repository contains my **Machine Learning practice notebooks** created while learning and experimenting with various ML concepts using **Google Colab**.  
-Each module focuses on a specific stage of the ML workflow — from Python basics to data preprocessing and model preparation.
+This repository contains my step-by-step **Machine Learning practice notebooks**, created to strengthen my foundation and hands-on experience with Python, Data Preprocessing, and ML workflows using Google Colab.
 
 ---
 
-## 📘 Completed Modules
+## ✅ Completed Modules
 
-### **01_Basics/**
-Built a strong foundation in Python and essential data-handling libraries.
+### 🔹 01_Basics/
+Fundamentals of Python programming and essential data-handling libraries.
 
-**🔹 Topics Practiced**
-- Python fundamentals (data types, loops, conditionals, functions)  
-- Data structures (lists, tuples, sets, dictionaries)  
-- File handling and exception management  
-- NumPy for numerical computing  
-- Pandas for data manipulation and cleaning  
-- Data visualization using Matplotlib & Seaborn  
-- Mini end-to-end exercises combining all topics  
-
-**🧠 Key Skills Gained**
-- Writing clean and modular Python code  
-- Analyzing, transforming, and visualizing data efficiently  
-- Confident with essential Python libraries for ML workflows  
+**Topics Covered:**
+- Python recap & functions  
+- Data structures and file handling  
+- Exception handling  
+- NumPy & Pandas practice  
+- Basic data visualization  
+- Revision exercises  
 
 ---
 
-### **02_Data_Preprocessing/**
-Learned how to prepare raw data for machine learning models.
+### 🔹 02_Data_Preprocessing/
+Cleaned and prepared raw data for machine learning.
 
-**🔹 Topics Practiced**
+**Topics Covered:**
 - Data import and inspection  
-- Handling missing data  
+- Handling missing values  
 - Encoding categorical variables  
-- Feature scaling and normalization  
+- Data scaling & normalization  
 - Outlier detection and treatment  
-- Splitting datasets for training/testing and exporting  
-
-**🧠 Key Skills Gained**
-- Cleaning and preprocessing real-world datasets  
-- Applying encoding and scaling techniques correctly  
-- Detecting and handling missing or extreme values  
-- Preparing data for model training  
+- Splitting & exporting processed data  
 
 ---
 
-## 🧩 Tools & Libraries Used
-- **Google Colab**
-- **Python**
-- **NumPy**
-- **Pandas**
-- **Matplotlib**
-- **Seaborn**
-- **Scikit-learn**
+### 🔹 03_Exploratory_Data_Analysis (EDA)/
+Explored and visualized datasets to extract data-driven insights.
+
+**Notebooks:**
+1. `01_Univariate_Analysis.ipynb` – Explore single-variable patterns using histograms, boxplots, countplots.  
+2. `02_Bivariate_Multivariate_Analysis.ipynb` – Study relationships between variables with scatterplots, pairplots, and barplots.  
+3. `03_Correlation_and_Heatmaps.ipynb` – Compute correlations and visualize them using heatmaps to detect multicollinearity.  
+4. `04_Distribution_and_Outlier_Visualization.ipynb` – Analyze distributions and detect outliers using IQR and Z-score.  
+5. `05_EDA_Report_Preparation.ipynb` – Generate structured EDA reports using `ydata_profiling` and `sweetviz`.  
+6. `06_EDA_Practice_Exercises.ipynb` – Perform full EDA on real datasets (Titanic, Iris, Mall Customers).  
 
 ---
 
-## 🚀 Skills Developed So Far
-- Data cleaning and preprocessing  
-- Exploratory data analysis fundamentals  
-- Handling categorical & numerical data  
-- Working with outliers and scaling methods  
-- File handling and data export  
-- Building reproducible Colab-based ML workflows  
+## 🚀 Currently Working On
+
+### 🔸 04_Feature_Engineering/
+Transforming raw data into meaningful features to improve ML model performance.
+
+**Planned Topics:**
+- Handling categorical and numerical features  
+- Feature transformation (log, binning, scaling)  
+- Feature creation (interaction terms, domain features)  
+- Feature selection techniques (Variance, Correlation, Mutual Info)  
+- Encoding and dimensionality reduction (PCA, one-hot, label encoding)  
+- Practical feature engineering exercises  
 
 ---
 
-## 🎯 Next Step
-Move on to **03_Exploratory_Data_Analysis/** to:
-- Understand datasets through visual exploration  
-- Identify feature relationships and patterns  
-- Prepare for model building and evaluation  
+## ⚙️ Environment
+- Platform: **Google Colab**  
+- Language: **Python 3**  
+- Libraries: **NumPy, Pandas, Matplotlib, Seaborn, Sweetviz, ydata_profiling, Scikit-learn**
+
+
 
 ---
 
-⭐ **Learning in Progress:** Currently advancing toward Exploratory Data Analysis (EDA) and model development.
+💡 *Continuing my ML learning journey — step by step, from data to decisions.*
+
